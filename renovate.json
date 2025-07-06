@@ -1,0 +1,13 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:best-practices",
+    ":semanticCommits",
+    ":dependencyDashboard",
+    ":ignoreUnstable"
+  ],
+  "labels": [
+    "[bot] renovate"
+  ],
+  "rebaseWhen": "never"
+}
